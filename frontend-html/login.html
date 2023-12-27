@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h2>Login</h2>
-        <input type="text" id="email" placeholder="Email">
-        <input type="text" id="pwd" placeholder="Password">
-        <button id="login">Login</button>
-    </div>
+    Admin dashboard
+    <button id="logoutBtn" onclick="performLogout()">Logout</button>
+    <div id="box"></div>
+    <button id="leftBtn" onclick="moveAndChangeColor('left')">left</button>
+    <button id="rightBtn" onclick="moveAndChangeColor('right')">right</button>
+    <button id="upBtn" onclick="moveAndChangeColor('up')">up</button>
+    <button id="downBtn" onclick="moveAndChangeColor('down')">down</button>
+    <script src="script.js"></script>
 </body>
+
 </html>
